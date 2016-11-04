@@ -19,5 +19,9 @@ pip install "ipython[notebook]"</code></pre>
 最後在cmd輸入ipython notebook運行Jupyter  
 <pre><code>ipython notebook</code></pre>  
   
-最後jupyter應該會自己開啟網頁，沒有的話自己輸入網址localhost:8888
-##
+最後jupyter應該會自己開啟網頁，沒有的話自己輸入網址localhost:8888  
+  
+  
+##上傳檔案及放置檔案  
+將cv2.pyd放到 C:\Python27\Lib\site-packages  
+然後在Jupyter首頁中上傳兩個XML檔及要做人臉辨識的圖片
