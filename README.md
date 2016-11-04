@@ -30,6 +30,7 @@ pip install "ipython[notebook]"</code></pre>
 ##開始實作人臉及眼睛辨識  
 在Jupyter首頁的右上角New一個Notebook  
 然後可以開始貼程式碼囉~~  
+註解寫在程式碼裡  
 <pre><code>
 import sys,cv2
 import matplotlib.pyplot as plt
@@ -81,3 +82,4 @@ for (x, y, w, h) in faces:
     cv2.putText(image,str(random.randrange(18, 25)),(x+(w/2)-18,y-10), font, 1, (255,201,14),4) #寫文字
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 </code></pre>  
+如果三段程式碼都寫在不同區段的話，在畫框時開始重新RUN就要從第一個區段重新執行  
