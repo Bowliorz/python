@@ -83,3 +83,5 @@ for (x, y, w, h) in faces:
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 </code></pre>  
 如果三段程式碼都寫在不同區段的話，在畫框時開始重新RUN就要從第一個區段重新執行  
+附上的pythonCV2.ipynb是Jupyter的Notebook檔  
+上面的程式碼儲存就是這種檔案，可以直接將這個檔案一樣在Jupyter首頁上傳，並直接開啟就是上面的程式碼了  
