@@ -12,12 +12,12 @@
 matlab類似的繪圖API，官網gallery提供了許多的圖樣可供使
 用。  
 *Jupyter*:是python網頁編輯器ipython的改版，核心皆與ipython相同  
-```pip install numpy```  
-```pip install matplotlib```  
-```pip install "ipython[notebook]"```  
+<pre><code>pip install numpy
+pip install matplotlib
+pip install "ipython[notebook]"</code></pre>  
   
 最後在cmd輸入ipython notebook運行Jupyter  
-```ipython notebook```  
+<pre><code>ipython notebook</code></pre>  
   
 最後jupyter應該會自己開啟網頁，沒有的話自己輸入網址localhost:8888
 ##
