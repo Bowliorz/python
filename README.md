@@ -19,5 +19,5 @@ matlab類似的繪圖API，官網gallery提供了許多的圖樣可供使
 最後在cmd輸入ipython notebook運行Jupyter  
 ```ipython notebook```  
   
-  
+最後jupyter應該會自己開啟網頁，沒有的話自己輸入網址localhost:8888
 ##
